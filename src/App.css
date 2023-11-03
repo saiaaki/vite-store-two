@@ -1,0 +1,134 @@
+.Navbar{
+   background-color: palegoldenrod;
+}
+.Navbar>ul{
+  font-size: 18px;
+    font-style: oblique;
+    padding: 1px 20px;
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+} 
+.Navbar>ul>li{
+  padding: 10px;
+    margin: 10px;
+}
+.form{
+  padding: 16px;
+  width: 185px;
+  border-radius: 10px;
+  background-color:rgb(237, 237, 243);
+}
+/* .form >input{
+  border-radius: 4px;
+  margin: 5PX;
+} */
+.form-fields>input{
+  border-radius: 4px;
+  margin: 5PX;
+}
+
+/* store css */
+ 
+ 
+.header{
+  margin:2px;
+ display: flex;
+ justify-content: space-between;
+ border: 1px solid black;
+ }
+.logo{
+ width: 100px;
+ height: 100px;
+}
+.nav-items{
+ padding: opx 20px;
+}
+.nav-items>ul{
+ font-size: 18px;
+ font-style: oblique;
+ padding: 1px 20px;
+ display: flex;
+ list-style-type: none;
+}
+.nav-items>ul>li{
+ padding: 10px;
+ margin: 10px;
+}
+ .maindiv{
+   display: flex;
+   justify-content: center;
+   margin-top: 175px;
+ }
+ 
+ .sub{
+   display: flex;
+   justify-content: right;
+   background-color: blue;
+   padding: 15px;
+ }
+ .sub a{
+   border-radius: 2px;
+   margin-right: 28px;
+   color: white;
+ } */
+ 
+ button{
+   padding: 5px;
+   margin: 4px;
+ }
+ 
+ .image{
+   width: 150px;
+   height: 150px;
+ }
+  h4{
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+  }
+  .mainDiv{
+      /* padding: 23px; */
+      border: 1px solid #dee1e6;
+      /* width: 190px; */
+      text-align: center;
+      background-color: #f8f9fc;
+      position: relative;
+      width: 95%;
+      min-height: 300px;
+ }
+ .mainDiv:hover{
+  
+  cursor: pointer;
+   border: 1px solid black;
+ }
+ .filter-btn button{
+  margin:2px;
+  padding: 5px;
+ } 
+ 
+ .btn-click{
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  /* position: absolute; */
+  /* text-align: center; */
+  /* display: block; */
+  /* width: 40%; */
+  /* bottom: 10px; */
+  text-align: center;
+ }
+ .store-name{
+  font-family: 'Playfair Display', serif;
+  color: rgb(34, 17, 4);
+ }
+ .btn-div{
+  position: absolute;
+   bottom: 10px;
+   width: 100%;
+   
+}
+
+.search-bar{
+  width: 400px;
+  height: 35px;
+}
